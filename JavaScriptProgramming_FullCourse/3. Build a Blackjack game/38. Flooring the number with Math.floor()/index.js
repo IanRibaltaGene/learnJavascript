@@ -9,6 +9,8 @@ console.log(flooredNumber)
 
 What does Math.floor() do to positive numbers?
 
-Your answer: 
+Your answer: 3.45632 -> 3
+             3.99999 -> 3
+             removes decimals
 
 */
