@@ -9,5 +9,7 @@
 
 // Use both a for loop and a template string to solve the challenge
 function generateSentence(desc, arr) {
-    
+    return `The ${arr.length} ${desc} are ${arr.join(", ")}`
 }
+
+console.log(generateSentence("largest countries", ["China", "India", "USA"]))
